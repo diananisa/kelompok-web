@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Belajar Form Pada Html</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center>
+
+	<h1>FORMULIR PENDAFTARAN BINOMO</h1><br><br>
+
+	<form action="submit-form.php" method="post">
+
+	<table border="0" cellpadding="2" cellspacing="4" >
+	<tr> 
+	<td width="100px"> <label for="UserName">UserName &nbsp; : </label></td>
+	<td> <input type="text" id="UserName"> </td>
+	</tr>
+	<tr>
+	<td><label for="email" >Email &emsp; &emsp;: </label></td>
+	<td> <input type="email" id="email"></td>
+	</tr>
+
+	<tr>
+	<td><label for="Password">Password &nbsp;&ensp;: </label></td>
+	<td> <input type="Password" id="Password"></td>
+	</tr>
+	<tr>
+	<td><label for="phone">Phone &emsp; &emsp;: </label></td>
+	<td><input type="tel" name="phone" id="phone"></td>
+	</tr>
+	<tr>
+		<td>
+		<label for="age">Umur &emsp;&emsp;&nbsp;: </label>
+		</td>
+		<td>
+		<input type="number" name="age" id="age" value="19" width="10%">
+		</td>
+	</tr>
+
+	<tr>
+		<td><label >Agama &emsp;&ensp; :</label></td>
+		<td>
+		<select name='agama'>
+		<option value='islam'>Islam</option>
+		<option value='kristen'>Kristen</option>
+		<option value='katholik'>Katholik</option>
+		<option value='hindu'>Hindu</option>
+		<option value='kristen'>Budha</option>
+	  </select>
+	 </td>
+	</tr>
+	<tr>
+		<td><label for="alamat">Alamat&emsp; &ensp;&nbsp;:</label></td>
+		<td><textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea></td>
+
+	</tr>
+	<tr>
+	<td colspan="2"><label for="Jenis Kelamin :">Jenis Kelamin</label></td>
+	</tr>
+	<tr>
+	<td><input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki" required>
+	<label for="laki-laki">Laki-laki</label></td>
+	</tr>
+	<tr>
+	<td><input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan" required>
+	<label for="perempuan">Perempuan</label></td>
+	</tr>
+	<tr >
+	<td><label>Hobby</label></td>
+	</tr>
+
+	<tr>
+	<td ><input type="checkbox" id="turu" ><label for="turu">Rebahan</label></td>
+	<td ><input type="checkbox" id="menyanyi" ><label for="menyanyi">Menyanyi</label></td>
+	</tr>
+
+	<tr>
+	<td ><input type="checkbox" id="menari" ><label for="menari">Menari</label></td>
+	<td ><input type="checkbox" id="sepakbola" ><label for="sepakbola">Sepak Bola</label></td>
+	</tr>
+	<tr>
+	<td><input type="checkbox" id="berenang" ><label for="GO">Berenang</label></td>	
+	<td><input type="checkbox" id="GO" ><label for="GO">Game Online</label></td>
+	</tr>
+
+</table>
+<br>
+<button type="submit" width= 100% height=40 border-radius= 40px ; ">KIRIM!!</button>
+</center>
+
+</form>
+</body>
+</html>
